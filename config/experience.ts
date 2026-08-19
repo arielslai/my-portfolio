@@ -12,7 +12,7 @@ export interface ExperienceInterface {
   skills: ValidSkills[];
   companyUrl?: string;
   logo?: string;
-  media?: { type: "image" | "pdf"; src: string; alt?: string }[];
+  media?: { type: "image" | "pdf" | "link"; src: string; alt?: string }[];
 }
 
 export const experiences: ExperienceInterface[] = [
@@ -94,8 +94,7 @@ export const experiences: ExperienceInterface[] = [
     "Computer Organization",
     "RTL Design",
     "Waveform Analysis",
-    "Mentoring",
-    "Instructional Design"
+    "Mentoring"
   ],
   logo: "/experience/cornell-logo.png",
   media: [] // no images or links
@@ -117,7 +116,7 @@ export const experiences: ExperienceInterface[] = [
     "Mentored first‑year engineers on project teams and engagement opportunities.",
     "Recognized for effective facilitation and advising, earning return selection."
   ],
-  skills: ["Mentoring", "Facilitation", "Academic Advising", "Community Building"],
+  skills: ["Mentoring", "Academic Advising", "Community Building"],
   media: [],
   logo: "/experience/cornell-logo.png",
 
@@ -140,7 +139,7 @@ export const experiences: ExperienceInterface[] = [
     "Designed flyers and posts for donation drives and dining events.",
     "Contributed to consistent branding and storytelling across platforms."
   ],
-  skills: ["Content Creation", "Social Media Marketing", "Photography", "Graphic Design"],
+  skills: ["Content Creation", "Social Media Marketing", "Videography", "Graphic Design"],
   media: [
     {
       type: "image",

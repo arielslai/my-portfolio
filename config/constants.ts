@@ -75,6 +75,18 @@ export type ValidSkills =
   | "RF Theory"
   | "Engineering Design"
   | "Signal Processing"
+  | "Digital Logic"
+  | "Computer Organization"
+  | "RTL Design"
+  | "Waveform Analysis"
+  | "Mentoring"
+  | "Academic Advising"
+  | "Content Creation"
+  | "Videography"
+  | "Social Media Marketing"
+  | "Community Building"
+  | "Graphic Design"
+  | "CUDA"
   | "FPGA";
 
 
@@ -91,6 +103,7 @@ export type ValidCategory =
   | "Machine Learning"
   | "Parallel Computing"
   | "Aerospace"
+  | "IoT"
   | "Community"
   | "Game Dev";
 
@@ -103,6 +116,4 @@ export type ValidPages =
   | "projects"
   | "experience"
   | "contact"
-  | "contributions"
-  | "resume"
-  | "blogs";
+  | "resume";
