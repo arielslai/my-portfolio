@@ -9,154 +9,97 @@ export interface skillsInterface {
 
 export const skillsUnsorted: skillsInterface[] = [
   {
-    name: "Next.js",
-    description:
-      "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
+    name: "C/C++",
+    description: "Develop embedded firmware and system-level code for microcontrollers and hardware integration.",
     rating: 5,
-    icon: Icons.nextjs,
+    icon: Icons.laptop, // briefcase
   },
   {
-    name: "React",
-    description:
-      "Craft interactive user interfaces using components, state, props, and virtual DOM.",
+    name: "Python",
+    description: "Automate validation workflows, build device interfaces, and prototype ML benchmarks.",
     rating: 5,
-    icon: Icons.react,
+    icon: Icons.work,
   },
   {
-    name: "GraphQL",
-    description:
-      "Fetch data precisely with a powerful query language for APIs and runtime execution.",
+    name: "SystemVerilog & FPGA",
+    description: "Design and debug digital logic, datapaths, FSMs, and single-cycle processors on FPGA platforms.",
     rating: 4,
-    icon: Icons.graphql,
+    icon: Icons.media, // image icon
   },
   {
-    name: "Nest.js",
-    description:
-      "Create scalable and modular applications with a progressive Node.js framework.",
+    name: "RTL Design & Simulation",
+    description: "Implement and verify register-transfer level designs with timing, control, and functional correctness.",
     rating: 4,
-    icon: Icons.nestjs,
+    icon: Icons.paper,
   },
   {
-    name: "express.js",
-    description:
-      "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
+    name: "Hardware-in-the-Loop (HIL)",
+    description: "Validate embedded systems with deterministic I/O, SCPI automation, and simulator architectures.",
     rating: 5,
-    icon: Icons.express,
+    icon: Icons.settings,
   },
   {
-    name: "Node.js",
-    description:
-      "Run JavaScript on the server side, enabling dynamic and responsive applications.",
-    rating: 5,
-    icon: Icons.nodejs,
-  },
-  {
-    name: "MongoDB",
-    description:
-      "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",
-    rating: 5,
-    icon: Icons.mongodb,
-  },
-  {
-    name: "Typescript",
-    description:
-      "Enhance JavaScript with static types, making code more understandable and reliable.",
-    rating: 5,
-    icon: Icons.typescript,
-  },
-  {
-    name: "Javascript",
-    description:
-      "Create interactive and dynamic web experiences with the versatile scripting language.",
-    rating: 5,
-    icon: Icons.javascript,
-  },
-  {
-    name: "HTML 5",
-    description:
-      "Structure web content beautifully with the latest version of HyperText Markup Language.",
+    name: "PCB Design (KiCad)",
+    description: "Design and prototype schematics and layouts for compact instrumentation and mixed-signal boards.",
     rating: 4,
-    icon: Icons.html5,
+    icon: Icons.spinner,
   },
   {
-    name: "CSS 3",
-    description:
-      "Style web pages creatively with the latest iteration of Cascading Style Sheets.",
+    name: "ARM Assembly",
+    description: "Write low-level routines for Cortex-M microcontrollers, handling interrupts and concurrency.",
     rating: 4,
-    icon: Icons.css3,
+    icon: Icons.laptop,
   },
   {
-    name: "React Native",
-    description:
-      "Develop cross-platform mobile apps using React for consistent and engaging experiences.",
+    name: "Embedded Platforms",
+    description: "Work with Beckhoff PLCs, Toradex SoMs, ESP32, and Arduino for real-world hardware integration.",
     rating: 4,
-    icon: Icons.react,
+    icon: Icons.laptop,
   },
   {
-    name: "Angular",
-    description:
-      "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
+    name: "Oscilloscopes & AWGs",
+    description: "Instrument and debug circuits with waveform generation, signal measurement, and mixed-signal interfacing.",
+    rating: 4,
+    icon: Icons.work,
+  },
+  {
+    name: "Analog/Digital I/O",
+    description: "Interface sensors, actuators, and mixed-signal pathways for embedded and test systems.",
+    rating: 4,
+    icon: Icons.synthwave,
+  },
+  {
+    name: "Circuit Bring-up",
+    description: "Debug and integrate mixed-signal circuits, wiring, and system-level hardware prototypes.",
+    rating: 4,
+    icon: Icons.add,
+  },
+  {
+    name: "Docker & Redis",
+    description: "Build modular device-interface modules with containerization and Pub/Sub messaging for validation.",
+    rating: 4,
+    icon: Icons.settings,
+  },
+  {
+    name: "Git & Linux CLI",
+    description: "Version control and efficient command-line workflows for collaborative engineering projects.",
+    rating: 5,
+    icon: Icons.gitBranch,
+  },
+  {
+    name: "LTspice",
+    description: "Simulate analog and mixed-signal circuits for validation and design exploration.",
     rating: 3,
-    icon: Icons.angular,
+    icon: Icons.laptop,
   },
   {
-    name: "Redux",
-    description:
-      "Manage app state effectively using a predictable and centralized state container.",
-    rating: 4,
-    icon: Icons.redux,
-  },
-  {
-    name: "Socket.io",
-    description:
-      "Enable real-time, bidirectional communication between clients and servers effortlessly.",
+    name: "PyTorch",
+    description: "Benchmark CNN training and analyze performance bottlenecks across compute architectures.",
     rating: 3,
-    icon: Icons.socketio,
-  },
-  {
-    name: "Material UI",
-    description:
-      "Create stunning and responsive UIs with a popular React UI framework.",
-    rating: 4,
-    icon: Icons.mui,
-  },
-
-  {
-    name: "Tailwind CSS",
-    description:
-      "Design beautiful, modern websites faster with a utility-first CSS framework.",
-    rating: 5,
-    icon: Icons.tailwindcss,
-  },
-  {
-    name: "AWS",
-    description:
-      "Utilize Amazon Web Services to build and deploy scalable, reliable, and secure applications.",
-    rating: 3,
-    icon: Icons.amazonaws,
-  },
-  {
-    name: "Bootstrap",
-    description:
-      "Quickly create responsive and appealing web designs using a popular CSS framework.",
-    rating: 2,
-    icon: Icons.bootstrap,
-  },
-  {
-    name: "MySQL",
-    description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 2,
-    icon: Icons.mysql,
-  },
-  {
-    name: "Netlify",
-    description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 4,
-    icon: Icons.netlify,
+    icon: Icons.star,
   },
 ];
+
 
 export const skills = skillsUnsorted
   .slice()

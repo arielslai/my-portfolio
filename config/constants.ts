@@ -56,11 +56,27 @@ export type ValidSkills =
   | "Flutter"
   | "Dart"
   | "Flask"
-  | "Django"
-  | "FastAPI"
   | "SQL"
   | "NoSQL"
-  | "Framer Motion";
+  | "Framer Motion"
+  // New additions for hardware/embedded
+  | "C++"
+  | "Hardware Repair"
+  | "Arduino"
+  | "ESP32"
+  | "MPU6050"
+  | "NumPy"
+  | "FRDM-KL46Z"
+  | "Pygame"
+  | "KiCad"
+  | "SystemVerilog"
+  | "Embedded Systems"
+  | "Hardware Integration"
+  | "RF Theory"
+  | "Engineering Design"
+  | "Signal Processing"
+  | "FPGA";
+
 
 export type ValidCategory =
   | "Full Stack"
@@ -69,7 +85,15 @@ export type ValidCategory =
   | "UI/UX"
   | "Web Dev"
   | "Mobile Dev"
-  | "3D Modeling";
+  | "3D Modeling"
+  | "Hardware"
+  | "Embedded Systems"
+  | "Machine Learning"
+  | "Parallel Computing"
+  | "Aerospace"
+  | "Community"
+  | "Game Dev";
+
 
 export type ValidExpType = "Personal" | "Professional";
 

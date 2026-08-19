@@ -87,6 +87,52 @@ export default async function ExperienceDetailPage({
                 </li>
               ))}
             </ul>
+
+            {/* Media block ONLY for Summary */}
+            {experience.media && experience.media.length > 0 && (
+              <div className="mt-6 space-y-6">
+                {experience.media.map((item, idx) => {
+                  if (item.type === "image") {
+                    return (
+                      <Image
+                        key={idx}
+                        src={item.src}
+                        alt={item.alt || experience.company}
+                        width={800}
+                        height={600}
+                        className="rounded-md border object-contain"
+                      />
+                    );
+                  } else if (item.type === "pdf") {
+                    return (
+                      <iframe
+                        key={idx}
+                        src={item.src}
+                        className="w-full h-[600px] border rounded-md"
+                      />
+                    );
+                  } else if (item.type === "link") {
+                    return (
+                      <Button
+                        key={idx}
+                        variant="outline"
+                        asChild
+                      >
+                        <Link
+                          href={item.src}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {item.alt || "View Presentation"}
+                        </Link>
+                      </Button>
+                    );
+                  }
+                  return null;
+                })}
+              </div>
+            )}
+
           </div>
         </AnimatedSection>
       ),
@@ -134,6 +180,7 @@ export default async function ExperienceDetailPage({
       ),
     },
   ];
+
 
   return (
     <ClientPageWrapper>
