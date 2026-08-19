@@ -127,8 +127,8 @@ export const experiences: ExperienceInterface[] = [
   company: "Cornell Student & Campus Life",
   companyUrl: "https://scl.cornell.edu/dining",
   location: "Ithaca, NY",
-  startDate: new Date("2025-09-01"),
-  endDate: new Date("2026-05-01"),
+  startDate: new Date("2024-10-01"),
+  endDate: "Present",
   description: [
     "Produced 30+ social media reels featured on Cornell Dining and official Cornell University IG/FB accounts with 389K+ followers.",
     "Achieved a 50% engagement increase, generating 70K+ views across campaigns.",
