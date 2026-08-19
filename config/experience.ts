@@ -18,7 +18,7 @@ export interface ExperienceInterface {
 export const experiences: ExperienceInterface[] = [
   {
     id: "llnl",
-    position: "Embedded Systems Engineering Intern",
+    position: "Embedded Systems Intern",
     company: "Lawrence Livermore National Laboratory",
     location: "Livermore, CA",
     startDate: new Date("2026-05-18"),
