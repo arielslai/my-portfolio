@@ -142,11 +142,6 @@ export const experiences: ExperienceInterface[] = [
   skills: ["Content Creation", "Social Media Marketing", "Videography", "Graphic Design"],
   media: [
     {
-      type: "image",
-      src: "/experience/cornell-dining-promo.jpg",
-      alt: "Cornell Dining promotional post"
-    },
-    {
       type: "link",
       src: "https://www.instagram.com/cornelldining/",
       alt: "Cornell Dining Instagram"
