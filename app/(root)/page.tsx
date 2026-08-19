@@ -99,7 +99,7 @@ export default function IndexPage() {
           </AnimatedText>
           <div className="mt-4 max-w-[42rem] text-center">
             <p className="leading-normal text-muted-foreground text-sm sm:text-base">
-              Cornell ECE undergraduate and Bates Foundation Scholar passionate about embedded systems, 
+              Cornell ECE undergraduate and Bates Foundation Scholar passionate about digital logic, embedded systems, 
               FPGA design, and hardware–software integration.
             </p>
           </div>
