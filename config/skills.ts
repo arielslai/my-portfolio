@@ -51,6 +51,12 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.laptop,
   },
   {
+    name: "CI/CD",
+    description: "Automate builds and deployments with Git-based pipelines, ensuring reproducible embedded code delivery to Toradex platforms.",
+    rating: 4,
+    icon: Icons.gitRepoIcon, // pick an icon that fits your design system
+  },
+  {
     name: "Embedded Platforms",
     description: "Work with Beckhoff PLCs, Toradex SoMs, ESP32, and Arduino for real-world hardware integration.",
     rating: 4,

@@ -4,7 +4,7 @@ export const siteConfig = {
   username: "arielslai",
   description:
   "Cornell ECE student and Bates Foundation Scholar with experience across embedded systems, FPGA/digital logic, PCB/RF instrumentation, and hardware–software integration; driven to design and test reliable real‑world systems.",
-  url: "https://nbarkiya.xyz",
+  url: "https://ariel-lai.xyz",
   links: {
     github: "https://github.com/arielslai",
     linkedin: "https://linkedin.com/in/arielslai",
